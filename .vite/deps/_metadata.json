@@ -1,13 +1,47 @@
 {
   "hash": "140cc9f4",
-  "browserHash": "c83e51c0",
+  "browserHash": "4b63fb21",
   "optimized": {
     "three": {
       "src": "../../node_modules/three/build/three.module.js",
       "file": "three.js",
-      "fileHash": "b7fda11f",
+      "fileHash": "6ff479c2",
+      "needsInterop": false
+    },
+    "three/addons/loaders/FontLoader.js": {
+      "src": "../../node_modules/three/examples/jsm/loaders/FontLoader.js",
+      "file": "three_addons_loaders_FontLoader__js.js",
+      "fileHash": "ece46b49",
+      "needsInterop": false
+    },
+    "three/examples/jsm/geometries/TextGeometry.js": {
+      "src": "../../node_modules/three/examples/jsm/geometries/TextGeometry.js",
+      "file": "three_examples_jsm_geometries_TextGeometry__js.js",
+      "fileHash": "65f1363d",
+      "needsInterop": false
+    },
+    "three/addons/geometries/TextGeometry.js": {
+      "src": "../../node_modules/three/examples/jsm/geometries/TextGeometry.js",
+      "file": "three_addons_geometries_TextGeometry__js.js",
+      "fileHash": "1e484ef8",
+      "needsInterop": false
+    },
+    "three/examples/jsm/loaders/FontLoader": {
+      "src": "../../node_modules/three/examples/jsm/loaders/FontLoader.js",
+      "file": "three_examples_jsm_loaders_FontLoader.js",
+      "fileHash": "20c1637b",
       "needsInterop": false
     }
   },
-  "chunks": {}
+  "chunks": {
+    "chunk-4SRDCQ5M": {
+      "file": "chunk-4SRDCQ5M.js"
+    },
+    "chunk-PTZJG7V5": {
+      "file": "chunk-PTZJG7V5.js"
+    },
+    "chunk-PFUYBF3Q": {
+      "file": "chunk-PFUYBF3Q.js"
+    }
+  }
 }

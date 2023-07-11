@@ -9,9 +9,7 @@ function createPyramid() {
   const geometry = new CylinderGeometry(0, radius, height, 4, 1);
   const material = new MeshStandardMaterial({ color: 0xFFFF00 });
   const pyramid = new Mesh(geometry, material);
-
-
-
+  
   /*
   // create a BufferGeometry
   const geometry = new BufferGeometry();
