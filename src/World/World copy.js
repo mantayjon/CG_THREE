@@ -49,7 +49,7 @@ class World {
 
     const fontLoader = new FontLoader();
 
-    fontLoader.load('./fonts/Roboto Medium_Regular.json', function (font) {
+    fontLoader.load('src/World/components/fonts/helvetiker_bold.typeface.json', function (font) {
 		const textGeometry = new TextGeometry('hallo', {
 			font: font,
 			size: 1,
@@ -93,7 +93,7 @@ class World {
   updateText(newText) {
     const fontLoader = new FontLoader();
 
-    fontLoader.load('./fonts/Roboto Medium_Regular.json', function (font) {
+    fontLoader.load('src/World/components/fonts/helvetiker_bold.typeface.json', function (font) {
       const textGeometry = new TextGeometry(newText, {
         font: font,
         size: 1,
