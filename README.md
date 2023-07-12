@@ -16,5 +16,6 @@ You can also use your Mouse to control the angle you watch the text from.
     npm install --save three # vite npm install --save-dev vite
 
 3. Lastly run the vite and host the site locally 
+
     npx vite
 
