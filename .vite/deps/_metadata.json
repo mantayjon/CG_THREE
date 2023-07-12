@@ -1,35 +1,41 @@
 {
   "hash": "140cc9f4",
-  "browserHash": "4b63fb21",
+  "browserHash": "b5cfadd8",
   "optimized": {
     "three": {
       "src": "../../node_modules/three/build/three.module.js",
       "file": "three.js",
-      "fileHash": "6ff479c2",
+      "fileHash": "611b8863",
       "needsInterop": false
     },
     "three/addons/loaders/FontLoader.js": {
       "src": "../../node_modules/three/examples/jsm/loaders/FontLoader.js",
       "file": "three_addons_loaders_FontLoader__js.js",
-      "fileHash": "ece46b49",
+      "fileHash": "eeb0c860",
       "needsInterop": false
     },
     "three/examples/jsm/geometries/TextGeometry.js": {
       "src": "../../node_modules/three/examples/jsm/geometries/TextGeometry.js",
       "file": "three_examples_jsm_geometries_TextGeometry__js.js",
-      "fileHash": "65f1363d",
+      "fileHash": "521860f8",
       "needsInterop": false
     },
     "three/addons/geometries/TextGeometry.js": {
       "src": "../../node_modules/three/examples/jsm/geometries/TextGeometry.js",
       "file": "three_addons_geometries_TextGeometry__js.js",
-      "fileHash": "1e484ef8",
+      "fileHash": "bc5f10bb",
       "needsInterop": false
     },
     "three/examples/jsm/loaders/FontLoader": {
       "src": "../../node_modules/three/examples/jsm/loaders/FontLoader.js",
       "file": "three_examples_jsm_loaders_FontLoader.js",
-      "fileHash": "20c1637b",
+      "fileHash": "8f1b2c20",
+      "needsInterop": false
+    },
+    "three/examples/jsm/controls/OrbitControls": {
+      "src": "../../node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "file": "three_examples_jsm_controls_OrbitControls.js",
+      "fileHash": "38a70bd8",
       "needsInterop": false
     }
   },

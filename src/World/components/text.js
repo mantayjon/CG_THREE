@@ -1,29 +1,33 @@
-import { Mesh, MeshStandardMaterial } from 'three';
+import { Object3D, Mesh, MeshStandardMaterial } from 'three';
 
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader'; 
 
 function createText(){
-
-    let textMesh;
-
+    
+    let textMesh = new Object3D;
     const fontLoader = new FontLoader();
 
-    fontLoader.load('/src/World/fonts/Roboto Medium_Regular.json', function (font) {
+    fontLoader.load('./fonts/Roboto Medium_Regular.json', function (font) {
+		const textGeometry = new TextGeometry('hallooo', {
+			font: font,
+			size: 1,
+			height: 1,
+		});
+	
+		const material = new MeshStandardMaterial({ color: 0xffffff });
+	    textMesh = new Mesh(textGeometry, material);
+    
+        return textMesh;
+	}, undefined, function (error) {
+		console.error(error);
+	});
 
-        const textGeometry = new TextGeometry('hallo', {
-            font: font,
-            size: 10,
-            height: 1,
-            
-        });
-
-        const material = new MeshStandardMaterial({ color: 0xffFFFF });
-        textMesh = new Mesh(textGeometry, material);
-   
-    });
-
-    return textMesh;
 }
 
-export{createText}
+function rotateText(text3D) {
+    text3D.rotation.y += 0.01;
+    
+}
+
+export{createText, rotateText}
